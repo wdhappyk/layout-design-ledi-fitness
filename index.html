@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header" id="home">
+    <div class="menu d-flex align-items-center justify-content-between">
+        <div class="logo">Fitne<span class="orange">ss</span></div>
+        <div class="d-block d-lg-none burger-menu">
+            <a id="burger-menu-open" href="#"><i class="fa fa-navicon"></i></a>
+        </div>
+        <div id="right-menu" class="d-none d-lg-flex align-items-center justify-content-between w-100 flex-column flex-lg-row">
+            <div class="d-block d-lg-none burger-menu float-right">
+                <a id="burger-menu-close" href="#"><i class="fa fa-remove"></i></a>
+            </div>
+            <nav>
+                <ul class="d-flex flex-column flex-lg-row">
+                    <li class="wow fadeIn"><a class="go-to" href="#home">Home</a></li>
+                    <li class="wow fadeIn"><a class="go-to" href="#about">About Us</a></li>
+                    <li class="wow fadeIn"><a class="go-to" href="#modes">Page</a></li>
+                    <li class="wow fadeIn"><a class="go-to" href="#blog">Blog</a></li>
+                    <li class="wow fadeIn"><a class="go-to" href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <ul class="d-flex align-items-lg-center flex-column flex-lg-row">
+                <li class="wow fadeInRight"><a href="#">Login</a></li>
+                <li class="wow fadeInRight"><a href="#">Sign Up</a></li>
+                <li class="menu-btn"><a href="#">Chose plan</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container wow fadeInLeft">
+        <h1 class="title">
+            Make your body<br>
+            <span class="orange">Beautiful</span>
+        </h1>
+        <p class="text-low">
+            Lorem ipsum dolor sit amet, consectetur
+        </p>
+        <a href="#" class="btn">Get in touch</a>
+    </div>
+</header>
+<main class="welcome">
+    <div class="container">
+        <div class="row online-booking wow fadeInDown">
+            <div class="col-md-4 p-0 online-booking__img d-none d-md-block"></div>
+            <form class="col-md-6 mx-auto online-booking__card text-center">
+                <h3>Free 7 days</h3>
+                <h2 class="online-booking__title">Online booking</h2>
+                <div class="row online-booking__form">
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                        <select title="Peoples">
+                            <option value="1">1 People</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-4 online-booking__icon">
+                        <input id="datepicker" type="text" placeholder="Date" required>
+                        <img src="img/date.png" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-4 online-booking__icon">
+                        <input id="timepicker" type="text" placeholder="Time" required>
+                        <img src="img/time.png" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                        <input type="text" placeholder="Phone" required>
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-4">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <button class="btn">Get in touch</button>
+            </form>
+        </div>
+        <h2 class="welcome__title wow fadeInLeft" id="about">Welcome to <span class="orange">fitness</span></h2>
+        <div class="welcome__content wow fadeInLeft">
+            <p>
+                <b>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                </b>
+            </p>
+            <p class="grey">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            </p>
+        </div>
+        <a href="#" class="btn wow fadeInLeft">Get in touch</a>
+    </div>
+</main>
+<section class="modes wow fadeInLeft" id="modes">
+    <div class="container text-center text-lg-left">
+        <h2>Welcome to <span class="orange">fitness</span></h2>
+        <p class="grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="list-modes row justify-content-center justify-content-lg-start">
+            <article class="col-sm-8 col-lg-4 list-modes__mode wow fadeInLeft">
+                <img class="w-100" src="img/basic-crossfit.jpg" alt="">
+                <div class="list-modes__subscribe">
+                    <h3 class="list-modes__title">Basic Crossfit</h3>
+                    <p>Our staff includes amazing professionals that have an eye for crossfit.</p>
+                    <a href="#" class="btn">Get in touch</a>
+                </div>
+            </article>
+            <article class="col-sm-8 col-lg-4 list-modes__mode wow fadeInLeft" data-wow-delay=".3s">
+                <img class="w-100" src="img/fitness-studio.jpg" alt="">
+                <div class="list-modes__subscribe">
+                    <h3 class="list-modes__title">Fitness Studio</h3>
+                    <p>Work out in fitness groups or with a personal certified trainer in our gym center.</p>
+                    <a href="#" class="btn">Get in touch</a>
+                </div>
+            </article>
+            <article class="col-sm-8 col-lg-4 list-modes__mode wow fadeInLeft" data-wow-delay=".6s">
+                <img class="w-100" src="img/yoga-classes.jpg" alt="">
+                <div class="list-modes__subscribe">
+                    <h3 class="list-modes__title">Yoga Classes</h3>
+                    <p>What do you think about yoga? If you have a passion for this activity, we’ve got a special program.</p>
+                    <a href="#" class="btn">Get in touch</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="personal">
+    <div class="container text-center wow fadeInUp">
+        <div class="personal__subtitle">We trained with</div>
+        <h2 class="personal__title">Personal trainer</h2>
+        <a href="#" class="btn">Get in touch</a>
+    </div>
+</section>
+<section class="trainers wow fadeInLeft">
+    <div class="container text-center text-lg-left">
+        <h2>Expert <span class="orange">trainers</span></h2>
+        <p class="grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="list-trainers row align-items-end">
+            <article class="col-md-4 list-trainers__trainer wow fadeInLeft">
+                <img src="img/trainer-1.png" alt="">
+                <h3 class="list-trainers__name">Sarra Miller</h3>
+                <div class="list-trainers__type">Spinning trainer</div>
+                <p class="list-trainers__subscribe">Our staff includes amazing professionals that have an eye for crossfit.</p>
+            </article>
+            <article class="col-md-4 list-trainers__trainer wow fadeInLeft" data-wow-delay=".3s">
+                <img src="img/trainer-2.png" alt="">
+                <h3 class="list-trainers__name">John Doe</h3>
+                <div class="list-trainers__type">Spinning trainer</div>
+                <p class="list-trainers__subscribe">Our staff includes amazing professionals that have an eye for crossfit.</p>
+            </article>
+            <article class="col-md-4 list-trainers__trainer wow fadeInLeft" data-wow-delay=".6s">
+                <img src="img/trainer-3.png" alt="">
+                <h3 class="list-trainers__name">Alex Bold</h3>
+                <div class="list-trainers__type">Spinning trainer</div>
+                <p class="list-trainers__subscribe">Our staff includes amazing professionals that have an eye for crossfit.</p>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="promotion">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 promotion__free text-center wow fadeInLeftBig">
+                <div class="promotion__subtitle">Tru for free</div>
+                <h2 class="promotion__title">Free 5 days pass</h2>
+                <a href="#" class="btn">Get in touch</a>
+            </div>
+            <div class="col-lg-6 promotion__call text-center wow fadeInRightBig" id="contacts">
+                <div class="promotion__subtitle">Call us and tru</div>
+                <h2 class="promotion__title">957 547 4545</h2>
+                <a href="#" class="btn">Get in touch</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 footer__block footer__info text-center text-lg-left wow fadeInLeft">
+                <div class="logo">Fit<span class="orange">ness</span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="footer__follow">
+                    Follow Us:
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-vk"></i></a>
+                </div>
+                <form action="/" class="subscription d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start">
+                    <input class="w-100" type="email" placeholder="Your Email..." required>
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="col-lg-4 footer__block wow fadeInLeft" data-wow-delay=".3s">
+                <h4 class="text-center text-lg-left" id="blog">Blogs</h4>
+                <a href="#" class="blog">
+                    <img src="img/blog-1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </a>
+                <a href="#" class="blog">
+                    <img src="img/blog-1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </a>
+                <a href="#" class="blog">
+                    <img src="img/blog-1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </a>
+            </div>
+            <div class="col-lg-3 footer__block wow fadeInLeft" data-wow-delay=".6s">
+                <h4 class="text-center text-lg-left">Instagram</h4>
+                <div class="instagram-list">
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                    <a href="#"><img class="w-100" src="img/instagram-1.jpg" alt=""></a>
+                </div>
+                <a class="instagram-more" href="#">View more photos</a>
+            </div>
+        </div>
+        <div class="copyright text-center orange wow fadeInUp">
+            &copy; 2018 free-PSD-template<br>
+            Web-Developer: Happyk
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
